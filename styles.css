@@ -12,26 +12,37 @@ body{
     background-size: cover;
     padding: 15px 30px;
     height: 410px;
-    display: flex;
-    align-items: flex-start;
     justify-content: space-between;
+
+    flex-direction: column;
+    background-position: center;
+    display: flex;
+    align-items: center;
 }
-.btnIcon{
+
+.barra-navegacion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1500px;
+}
+
+.icon{
     background-color: transparent;
     border: none;
     cursor: pointer;
 }
 .contenedorBuscador{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
+    max-width: 1020px;
 }
 .buscador{
     padding-left: 15px;
     display: flex;
     height: 45px;
-    width: 950px;
+    width: 999px;
     border-radius: 3px;
     border: 1px;
     font-size: 15px;
@@ -41,24 +52,24 @@ body{
     background: #371356;
     padding: 0;
     border: 2px solid #fff;
-    border-radius: 3px;
+    border-radius: 4px;
     cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 55px;
-    height: 46px;
+    height: 48px;
 }
 .btnBuscar img{
     width: 23px;
     height: 23px;
 }
+    
 .cont-user-shop{
     display: flex;
-    align-items: center;
-    margin: 0;
-    gap: 15px;
+    gap: 1rem;
 }
+
 .user{
     background-color: transparent;
     border: none;
@@ -69,3 +80,123 @@ body{
     border: none;
     cursor: pointer;
 }
+    
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+    gap: 4.7rem;
+    padding: 5px;
+    margin-left: 12.5%;
+
+}
+
+.menu, a{
+    text-decoration: none;
+    font: 15.12px Karla, sans-serif;
+}
+.menu a:hover{
+    text-decoration: underline;
+}
+
+
+.eslogan{
+    height: 30%;
+    width: 40%;
+    padding: 10px;
+}
+
+.text{
+    color: white;
+    font: 35px Karla, sans-serif;
+    font-weight: bold;
+    margin-left: 85px;
+}
+
+
+ /*TEXTOS debajo del eslogan*/
+.acciones p {
+    color: #fff;
+    margin: 25px;
+    font: 16px Karla, sans-serif;
+}
+.opciones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding-top: 30px;
+    margin-left: 73px;
+    gap: 2.5rem;
+}
+
+.botones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-left: 97px;
+}
+
+/*BOTONES*/
+.botones {
+    display: flex;
+    gap: 1rem;
+    margin-top: 10px;
+}
+.btn-vender, .btn-comprar {
+    font: bold 14px Karla, sans-serif;
+    padding: 15px 105px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.btn-vender {
+    background-color: #371356;
+    color: white;
+    margin-right: 20px;
+    border: 2px solid #fff;
+}
+.btn-comprar {
+    background-color: white;
+    color: #371356;
+    border: 2px solid #371356;
+}
+
+
+.row-section{
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-left: 97px;
+    padding-top: 70px;
+    margin-left: 200px;
+    gap: 38rem;
+}
+[row-section], a{
+    color: grey;
+    text-decoration: none;
+}
+[row-section], a:hover{
+    text-decoration: underline;
+}
+
+.row-section-2{
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-left: 97px;
+    padding-top: 70px;
+    margin-left: 200px;
+    gap: 43rem;
+}
+[row-section-2], a{
+    color: grey;
+    text-decoration: none;
+}
+[row-section-2], a:hover{
+    text-decoration: underline;
+}
+
+
+  
