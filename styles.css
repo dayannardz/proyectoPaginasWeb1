@@ -1,5 +1,4 @@
-
-body{
+body {
     height: auto;
     width: 100%;
     margin: 0;
@@ -7,7 +6,8 @@ body{
     background-color: #fff;
     color: #542f90;
 }
-.navegador{
+
+.navegador {
     background: url(./assets/foto.png);
     background-size: cover;
     padding: 15px 30px;
@@ -20,7 +20,7 @@ body{
     align-items: center;
 }
 
-.barra-navegacion{
+.barra-navegacion {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -29,16 +29,18 @@ body{
     max-width: 1500px;
 }
 
-.icon{
+.icon {
     background-color: transparent;
     border: none;
     cursor: pointer;
 }
-.contenedorBuscador{
+
+.contenedorBuscador {
     display: flex;
     max-width: 1020px;
 }
-.buscador{
+
+.buscador {
     padding-left: 15px;
     display: flex;
     height: 45px;
@@ -48,7 +50,8 @@ body{
     font-size: 15px;
     outline: none;
 }
-.btnBuscar{
+
+.btnBuscar {
     background: #371356;
     padding: 0;
     border: 2px solid #fff;
@@ -60,28 +63,30 @@ body{
     width: 55px;
     height: 48px;
 }
-.btnBuscar img{
+
+.btnBuscar img {
     width: 23px;
     height: 23px;
 }
-    
-.cont-user-shop{
+
+.cont-user-shop {
     display: flex;
     gap: 1rem;
 }
 
-.user{
+.user {
     background-color: transparent;
     border: none;
     cursor: pointer;
 }
-.cart{
+
+.cart {
     background-color: transparent;
     border: none;
     cursor: pointer;
 }
-    
-.menu{
+
+.menu {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -92,22 +97,24 @@ body{
 
 }
 
-.menu, a{
+.menu,
+a {
     text-decoration: none;
     font: 15.12px Karla, sans-serif;
 }
-.menu a:hover{
+
+.menu a:hover {
     text-decoration: underline;
 }
 
 
-.eslogan{
+.eslogan {
     height: 30%;
     width: 40%;
     padding: 10px;
 }
 
-.text{
+.text {
     color: white;
     font: 35px Karla, sans-serif;
     font-weight: bold;
@@ -115,13 +122,14 @@ body{
 }
 
 
- /*TEXTOS debajo del eslogan*/
+/*TEXTOS debajo del eslogan*/
 .acciones p {
     color: #fff;
     margin: 25px;
     font: 16px Karla, sans-serif;
 }
-.opciones{
+
+.opciones {
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
@@ -130,7 +138,7 @@ body{
     gap: 2.5rem;
 }
 
-.botones{
+.botones {
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
@@ -143,18 +151,22 @@ body{
     gap: 1rem;
     margin-top: 10px;
 }
-.btn-vender, .btn-comprar {
+
+.btn-vender,
+.btn-comprar {
     font: bold 14px Karla, sans-serif;
     padding: 15px 105px;
     border-radius: 3px;
     cursor: pointer;
 }
+
 .btn-vender {
     background-color: #371356;
     color: white;
     margin-right: 20px;
     border: 2px solid #fff;
 }
+
 .btn-comprar {
     background-color: white;
     color: #371356;
@@ -162,7 +174,7 @@ body{
 }
 
 
-.row-section{
+.row-section {
     color: black;
     display: flex;
     flex-wrap: wrap;
@@ -172,15 +184,19 @@ body{
     margin-left: 200px;
     gap: 38rem;
 }
-[row-section], a{
+
+[row-section],
+a {
     color: grey;
     text-decoration: none;
 }
-[row-section], a:hover{
+
+[row-section],
+a:hover {
     text-decoration: underline;
 }
 
-.row-section-2{
+.row-section-2 {
     color: black;
     display: flex;
     flex-wrap: wrap;
@@ -190,13 +206,125 @@ body{
     margin-left: 200px;
     gap: 43rem;
 }
-[row-section-2], a{
+
+[row-section-2],
+a {
     color: grey;
     text-decoration: none;
 }
-[row-section-2], a:hover{
+
+[row-section-2],
+a:hover {
     text-decoration: underline;
 }
 
 
-  
+/*CARDS 1*/
+.section-tiendas-destacadas {
+    padding: 40px;
+}
+
+.cards-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 28px;
+}
+
+.card {
+    width: 260px;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-tienda .header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 13px;
+}
+
+.card-tienda .header img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card-tienda .footer {
+    padding: 14px;
+    font-weight: 200;
+    font-size: 14px;
+    color: black;
+}
+
+.card-tienda .img-responsive {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+
+/*CARDS 2*/
+.section-otras-tiendas {
+    background-color: #ffffff;
+    padding: 2rem 1rem;
+}
+
+.cards-contenedor-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.cards-contenedor-2 .card {
+    width: 205px;
+    border: 1px solid #eee;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+
+.card-articulo {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    text-align: center;
+}
+
+.card-articulo img.img-responsive {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 17px;
+}
+
+.card-articulo .title a {
+    font-size: 0.9rem;
+    color: grey;
+    text-decoration: none;
+
+}
+
+.card-articulo .by a {
+    font-size: 0.7rem;
+    color: grey;
+    text-decoration: none;
+}
+
+.by {
+    padding: 15px;
+}
+
+.card-articulo .price {
+    font-size: 13px;
+    color: #000;
+    font-weight: 400;
+}
