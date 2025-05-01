@@ -1,0 +1,433 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.nav {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.top-header {
+    margin: 0 150px 0 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo-kichink {
+    height: 32px;
+}
+
+.search-section {
+    display: flex;
+    align-items: center;
+    border: 2px solid #d5d5d5;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding-right: 2px;
+}
+
+.search-section select,
+.search-section input {
+    border: none;
+    height: 32px;
+}
+
+.search-section select {
+    padding: 0 10px;
+    font-size: 13px;
+    background: transparent;
+}
+
+.search-section input {
+    width: 200px;
+    padding-left: 10px;
+}
+
+.search-btn {
+    background: #c2d500;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    height: 29px;
+    width: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.search-btn img {
+    width: 16px;
+    height: 16px;
+}
+
+img {
+    margin-right: 20px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.icons i {
+    margin-right: 10px;
+    font-size: 18px;
+
+}
+
+.cart-count {
+    font-size: 14px;
+}
+
+.info-btn {
+    border: 1px solid #ccc;
+    background: #f4f4f4;
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.follow-btn {
+    background-color: #c2d500;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.store-bar {
+    margin: 0 0 0 150px;
+    display: flex;
+    align-items: center;
+    padding: 8px 20px;
+    gap: 10px;
+
+}
+
+.x {
+    margin-left: 850px;
+}
+
+.store-logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.dropdown {
+    background: none;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/**/
+.back-link {
+    font-size: 14px;
+    font-weight: 600;
+    color: #666666;
+    margin: 50px 80px 0 180px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.arrow {
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    padding: 5px 50px;
+    gap: 60px;
+
+}
+
+.left-side {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.main-image {
+    width: 700px;
+    margin-left: 105px;
+}
+
+.thumbnail {
+    margin-top: 20px;
+    margin-left: 110px;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+.thumbnail img {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #c7c9c9;
+    padding: 5px;
+    object-fit: contain;
+}
+
+.thumbnail .azul {
+    border: 1px solid #00b2c3;
+}
+
+.right-side {
+    width: 50%;
+}
+
+.title {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.price-container {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.price {
+    font-size: 22px;
+    color: #00b2c3;
+}
+
+.sub-price {
+    font-style: italic;
+    font-size: 14px;
+    color: #888;
+}
+
+.info {
+    margin-top: 5px;
+    color: #00b2c3;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.info img {
+    width: 20px;
+    height: 20px;
+}
+
+.monthly-payment {
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.monthly-payment img {
+    width: 45px;
+    height: 40px;
+    margin-top: 3px;
+}
+
+.payment-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.green-text {
+    color: #00c9a7;
+    font-size: 14px;
+}
+
+.small-text {
+    font-size: 12px;
+    color: #888;
+}
+
+.small-text {
+    font-size: 12px;
+    color: #888;
+}
+
+.label {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #888;
+}
+
+input[type="number"] {
+    background-color: #ebebeb;
+    margin-top: 10px;
+    width: 200px;
+    height: 28px;
+    font-size: 13px;
+    color: #bebebe;
+    padding: 5px;
+    border: 1px solid #d1d1d1;
+    border-radius: 3.5px;
+}
+
+.buy-button {
+    margin-top: 15px;
+    margin-left: 30px;
+    width: 210px;
+    height: 40px;
+    background-color: #2ca6d4;
+    color: black;
+    border: none;
+    padding: 10px 50px;
+    font-size: 12px;
+    border-radius: 5px;
+    border-radius: 3.5px;
+}
+
+.availability {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+.availability p {
+    color: #888;
+    margin-top: 2px;
+}
+
+.description {
+    margin-top: 20px;
+    font-size: 15px;
+    color: #565656;
+    width: 450px;
+
+}
+
+.monthly-payment {
+    margin-top: 20px;
+    color: #00c9a7;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+/**/
+.info-footer {
+    border-top: 1px solid #cdcdcd;
+}
+
+.info-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 50px 160px 40px 160px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding-top: 30px;
+    border-top: 1px solid #d9d9d9;
+}
+
+.info-block {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-width: 280px;
+}
+
+.gray-text {
+    color: #888;
+}
+
+.bold-text {
+    font-weight: bold;
+    color: #888;
+}
+
+.title-text {
+    font-weight: bold;
+    color: #888;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 0.3px;
+    margin-bottom: 3px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 12px;
+    font-size: 16px;
+    color: #888;
+}
+
+/**/
+.footer {
+    background-color: #f8f8f8;
+    padding: 15px 120px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: Arial, sans-serif;
+    color: #777;
+}
+
+.footer-col {
+    flex: 1;
+    min-width: 180px;
+    margin: 10px;
+}
+
+.footer-col h4 {
+    color: #888;
+    margin-bottom: 15px;
+}
+
+.footer-logo {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+.footer-col p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.footer-col i {
+    margin-right: 8px;
+}
+
+.store-links h4 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.store-links a {
+    text-align: right;
+    color: #663399;
+    font-size: 13px;
+    text-decoration: none;
+    display: block;
+    margin: 10px 0;
+}
+
+.store-img {
+    width: 140px;
+    margin: 10px 0;
+    display: block;
+}

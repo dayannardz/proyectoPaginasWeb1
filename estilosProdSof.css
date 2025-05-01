@@ -130,9 +130,6 @@ img {
     height: 30px;
     border-radius: 50%;
 }
-
-
-
 .dropdown {
     background: none;
     border: none;
@@ -140,6 +137,7 @@ img {
     cursor: pointer;
 }
 
+/**/
 .productos {
     display: flex;
     justify-content: center;
@@ -220,6 +218,9 @@ img {
     justify-content: center;
     flex-wrap: wrap;
     border-bottom: 5px;
+}
+a{
+    text-decoration: none;
 }
 
 .producto {
