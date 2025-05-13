@@ -4,15 +4,18 @@ body {
 }
 
 .nav {
+    width: 100%;
+    font-family: sans-serif;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .top-header {
-    margin: 0 150px 0 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 10px;
 }
 
 .logo-kichink {
@@ -24,14 +27,25 @@ body {
     align-items: center;
     border: 2px solid #d5d5d5;
     border-radius: 5px;
-    margin-left: 10px;
-    padding-right: 2px;
+    overflow: hidden;
+}
+
+.search-section input {
+    width: 100%;
+    min-width: 100px;
+}
+
+@media (max-width: 768px) {
+    .search-section input {
+        width: 100%;
+    }
 }
 
 .search-section select,
 .search-section input {
     border: none;
-    height: 32px;
+    padding: 6px;
+    outline: none;
 }
 
 .search-section select {
@@ -68,18 +82,22 @@ img {
     margin-right: 20px;
 }
 
+/*
 .header-left {
     display: flex;
     align-items: center;
+    gap: 15px;
+    padding-left: 150px;
 }
 
 .header-right {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 15px;
     cursor: pointer;
+    padding-left: 500px;
 }
-
+*/
 .icons i {
     margin-right: 10px;
     font-size: 18px;
@@ -87,7 +105,7 @@ img {
 }
 
 .cart-count {
-    font-size: 14px;
+    font-weight: bold;
 }
 
 .info-btn {
@@ -112,18 +130,21 @@ img {
     cursor: pointer;
 }
 
+/*
 .store-bar {
-    margin: 0 0 0 150px;
     display: flex;
     align-items: center;
-    padding: 8px 20px;
-    gap: 10px;
-
+    padding: 10px;
+    padding-left: 160px;
+    gap: 15px;
 }
 
 .x {
-    margin-left: 850px;
-}
+    margin-left: 750px;
+    display: flex;
+    align-items: center;
+    padding-left: 770px;
+}*/
 
 .store-logo {
     width: 30px;
@@ -132,10 +153,14 @@ img {
 }
 
 .dropdown {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
     background: none;
     border: none;
-    font-size: 14px;
+    font-size: 16px;
     cursor: pointer;
+    padding: 0;
 }
 
 /**/
@@ -155,22 +180,24 @@ img {
 }
 
 .container {
-    display: flex;
+    /*display: flex;*/
     padding: 5px 50px;
     gap: 60px;
 
 }
 
+/*
 .left-side {
     width: 50%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
-
+*/
 .main-image {
-    width: 700px;
-    margin-left: 105px;
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
 }
 
 .thumbnail {
@@ -193,10 +220,11 @@ img {
     border: 1px solid #00b2c3;
 }
 
+/*
 .right-side {
     width: 50%;
 }
-
+*/
 .title {
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
@@ -275,9 +303,8 @@ img {
 
 input[type="number"] {
     background-color: #ebebeb;
-    margin-top: 10px;
-    width: 200px;
-    height: 28px;
+    width: 210px;
+    height: 40px;
     font-size: 13px;
     color: #bebebe;
     padding: 5px;
@@ -286,8 +313,6 @@ input[type="number"] {
 }
 
 .buy-button {
-    margin-top: 15px;
-    margin-left: 30px;
     width: 210px;
     height: 40px;
     background-color: #2ca6d4;
